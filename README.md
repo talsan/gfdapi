@@ -8,6 +8,7 @@ https://api.globalfinancialdata.com/
 ### KEY SCRIPTS
 1. `config.py`: 
     - input with credentials for API
+    - requires valid `config.username` and `config.password`
 2. `gfdapi.py`:
     - module with login functionality (i.e. call `gfdapi.gfd_auth()` from other scripts)
 3. `pricing_downloader.py`: 
